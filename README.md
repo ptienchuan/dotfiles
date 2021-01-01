@@ -1,2 +1,3 @@
-# neovim-configuration
+# neovim configuration
+
 Configurations, plugins for neovim
