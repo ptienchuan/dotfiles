@@ -21,4 +21,6 @@ source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/nerdcommenter.vim
 source ~/.config/nvim/nerdtree-git-plugin.vim
 source ~/.config/nvim/vim-gitgutter.vim
+source ~/.config/nvim/vim-devicons.vim
+source ~/.config/nvim/vim-nerdtree-syntax-highlight.vim
 
