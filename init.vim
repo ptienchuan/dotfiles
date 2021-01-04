@@ -11,16 +11,18 @@ Plug 'Xuyuanp/nerdtree-git-plugin'              " Show git status by color at fi
 Plug 'ryanoasis/vim-devicons'                   " File icon in nerdtree
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " File, folder icon in nerdtree
 Plug 'airblade/vim-gitgutter'                   " Show git status at front of line, git changes preview
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'tpope/vim-surround'                       " Quick change, remove, add surrounder
 "Plug 'mg979/vim-visual-multi', {'branch':'master'}
 
 call plug#end()
 
 source ~/.config/nvim/common.vim
-source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/nerdcommenter.vim
+source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/nerdtree-git-plugin.vim
 source ~/.config/nvim/vim-gitgutter.vim
 source ~/.config/nvim/vim-devicons.vim
 source ~/.config/nvim/vim-nerdtree-syntax-highlight.vim
+source ~/.config/nvim/coc.nvim.vim
 

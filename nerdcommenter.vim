@@ -1,5 +1,4 @@
 " nerdcommenter - see the readme on git for more details
-let mapleader=','
 let g:NERDTreeShowHidden = 1
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
