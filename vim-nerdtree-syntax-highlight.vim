@@ -26,11 +26,13 @@ let g:NERDTreeExactMatchHighlightColor = {}
 let g:NERDTreeExactMatchHighlightColor['node_modules'] = s:folder
 let g:NERDTreeExactMatchHighlightColor['.git'] = s:folder
 let g:NERDTreeExactMatchHighlightColor['.github'] = s:folder
-let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:gitOrange
+let g:NERDTreeExactMatchHighlightColor['.npmrc'] = s:gitOrange
 let g:NERDTreeExactMatchHighlightColor['.gitconfig'] = s:gitOrange
+let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:gitOrange
 let g:NERDTreeExactMatchHighlightColor['.gitattributes'] = s:gitOrange
 let g:NERDTreeExactMatchHighlightColor['package.json'] = s:green
 let g:NERDTreeExactMatchHighlightColor['package-lock.json'] = s:green
+let g:NERDTreeExactMatchHighlightColor['sonar-project.properties'] = s:white
 
 let g:NERDTreePatternMatchHighlightColor = {}
 let g:NERDTreePatternMatchHighlightColor['jest.*'] = s:gitOrange
@@ -38,7 +40,8 @@ let g:NERDTreePatternMatchHighlightColor['\.env$'] = s:yellow
 let g:NERDTreePatternMatchHighlightColor['\.test.*'] = s:blue
 let g:NERDTreePatternMatchHighlightColor['\.spec.*'] = s:blue
 let g:NERDTreePatternMatchHighlightColor['\.dockerfile$'] = s:white
-let g:NERDTreePatternMatchHighlightColor['eslint'] = s:purple
+let g:NERDTreePatternMatchHighlightColor['.eslint'] = s:purple
+let g:NERDTreePatternMatchHighlightColor['.prettier'] = s:brown
 
 let g:WebDevIconsDefaultFolderSymbolColor = s:folder
 let g:WebDevIconsDefaultFileSymbolColor = s:blue

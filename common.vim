@@ -14,5 +14,6 @@ set shiftwidth=2                        " Change the number of space characters 
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set expandtab                           " Converts tabs to spaces
 set encoding=utf-8                      " The encoding displayed
+set cursorline                          " Highlight the line at cursor
 let mapleader=','
 
