@@ -12,6 +12,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitattributes'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['package.json'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['package-lock.json'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['sonar-project.properties'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.editorconfig'] = ''
 
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {} " needed
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['\.env$'] = ''

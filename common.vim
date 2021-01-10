@@ -17,3 +17,7 @@ set encoding=utf-8                      " The encoding displayed
 set cursorline                          " Highlight the line at cursor
 let mapleader=','
 
+au BufRead,BufNewFile .eslintrc.json setlocal filetype=json
+au BufRead,BufNewFile .babelrc setlocal filetype=json
+au BufRead,BufNewFile .prettierrc setlocal filetype=json
+
