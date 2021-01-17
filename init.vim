@@ -14,6 +14,8 @@ Plug 'airblade/vim-gitgutter'                   " Show git status at front of li
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 "Plug 'tpope/vim-surround'                       " Quick change, remove, add surrounder
 "Plug 'mg979/vim-visual-multi', {'branch':'master'}
@@ -29,4 +31,5 @@ source ~/.config/nvim/vim-devicons.vim
 source ~/.config/nvim/vim-nerdtree-syntax-highlight.vim
 source ~/.config/nvim/coc.nvim.vim
 source ~/.config/nvim/fzf.vim
+source ~/.config/nvim/vim-airline.vim
 
