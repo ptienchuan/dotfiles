@@ -2,7 +2,6 @@ set nocompatible
 
 call plug#begin(stdpath('data') . '/plugged')
 
-Plug 'tpope/vim-fugitive'                       " Improve git command inside neovim
 Plug 'morhetz/gruvbox'                          " Theme
 Plug 'sheerun/vim-polyglot'                     " Font color depends on language
 Plug 'preservim/nerdcommenter'                  " Comment code hot keys
@@ -24,7 +23,6 @@ call plug#end()
 
 source ~/.config/nvim/common.vim
 source ~/.config/nvim/nerdcommenter.vim
-source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/nerdtree-git-plugin.vim
 source ~/.config/nvim/vim-gitgutter.vim
 source ~/.config/nvim/vim-devicons.vim
@@ -32,4 +30,5 @@ source ~/.config/nvim/vim-nerdtree-syntax-highlight.vim
 source ~/.config/nvim/coc.nvim.vim
 source ~/.config/nvim/fzf.vim
 source ~/.config/nvim/vim-airline.vim
+source ~/.config/nvim/nerdtree.vim
 
