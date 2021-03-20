@@ -1,3 +1,3 @@
-# neovim configuration
+# dot files
 
-Configurations, plugins for neovim
+Programming configuration

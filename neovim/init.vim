@@ -21,14 +21,14 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-source ~/.config/nvim/common.vim
-source ~/.config/nvim/nerdcommenter.vim
-source ~/.config/nvim/nerdtree-git-plugin.vim
-source ~/.config/nvim/vim-gitgutter.vim
-source ~/.config/nvim/vim-devicons.vim
-source ~/.config/nvim/vim-nerdtree-syntax-highlight.vim
-source ~/.config/nvim/coc.nvim.vim
-source ~/.config/nvim/fzf.vim
-source ~/.config/nvim/vim-airline.vim
-source ~/.config/nvim/nerdtree.vim
+source ~/.dotfiles/neovim/common.vim
+source ~/.dotfiles/neovim/nerdcommenter.vim
+source ~/.dotfiles/neovim/nerdtree-git-plugin.vim
+source ~/.dotfiles/neovim/vim-gitgutter.vim
+source ~/.dotfiles/neovim/vim-devicons.vim
+source ~/.dotfiles/neovim/vim-nerdtree-syntax-highlight.vim
+source ~/.dotfiles/neovim/coc.nvim.vim
+source ~/.dotfiles/neovim/fzf.vim
+source ~/.dotfiles/neovim/vim-airline.vim
+source ~/.dotfiles/neovim/nerdtree.vim
 
