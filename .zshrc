@@ -18,10 +18,11 @@ prompt pure
 
 # Alias commands
 alias ls='ls -G'
-alias vim='nvim'
 
 # ZSH auto suggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# From homebrew
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # ZSH syntax highlight: https://formulae.brew.sh/formula/zsh-syntax-highlighting#default
+# From homebrew
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
