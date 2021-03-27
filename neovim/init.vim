@@ -15,6 +15,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 "Plug 'tpope/vim-surround'                       " Quick change, remove, add surrounder
 "Plug 'mg979/vim-visual-multi', {'branch':'master'}
