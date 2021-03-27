@@ -1,15 +1,16 @@
 echo "\n== ZSH =="
 
+mkdir -p ~/.zsh
+
 # install zsh-syntax-highlighting
-$brew install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 
 # install zsh-autosuggestions
-$brew install zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
 # install pure theme
-mkdir -p ~/.zsh
-git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+git clone https://github.com/sindresorhus/pure.git ~/.zsh/pure
 
 # zshrc
-ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+echo "source ~/.dotfiles/.zshrc" >> ~/.zshrc
 

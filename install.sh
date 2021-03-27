@@ -1,16 +1,14 @@
 #!/bin/bash
 
-brew="/opt/homebrew/bin/brew"
-
 # zsh
-source ~/.dotfiles/scripts/zsh.sh
+. ~/.dotfiles/scripts/zsh.sh
 
 # tmux
-source ~/.dotfiles/scripts/tmux.sh
+. ~/.dotfiles/scripts/tmux.sh
 
 # vim
-source ~/.dotfiles/scripts/vim.sh
+. ~/.dotfiles/scripts/vim.sh
 
 # neovim
-source ~/.dotfiles/scripts/neovim.sh
+. ~/.dotfiles/scripts/neovim.sh
 
