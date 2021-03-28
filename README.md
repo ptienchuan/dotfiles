@@ -1,5 +1,7 @@
 # dot files
 
+Configurations of programming tools be used for MacOS/Linux Ubuntu
+
 ## Configurations of
 
 - neovim
