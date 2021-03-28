@@ -5,6 +5,8 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   alias ls='ls --color=auto'
 fi
 
+export GIT_EDITOR=nvim
+
 # FZF
 FD_PACKAGE="fd"
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
