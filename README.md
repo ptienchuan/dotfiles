@@ -16,6 +16,7 @@ Make sure you have installed all of the following tools:
 - ripgrep
 - zsh
 - tmux
+- yarn
 
 ## Usage
 
