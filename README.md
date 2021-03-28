@@ -16,7 +16,7 @@ Make sure you have installed all of the following tools:
 - ripgrep
 - zsh
 - tmux
-- yarn
+- yarn (to install nvim markdown preview)
 
 ## Usage
 
