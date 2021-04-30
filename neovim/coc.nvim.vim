@@ -9,6 +9,7 @@ let g:coc_global_extensions = [
   \ 'coc-html', 
   \ 'coc-css', 
   \ 'coc-vetur', 
+  \ 'coc-pyright',
   \ ]
 
 " TextEdit might fail if hidden is not set.
