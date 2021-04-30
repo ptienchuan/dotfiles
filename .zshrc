@@ -16,7 +16,12 @@ FD_PACKAGE="fd"
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   FD_PACKAGE="fdfind"
 fi
-export FZF_DEFAULT_COMMAND="$FD_PACKAGE --type file --follow --hidden --exclude /.git --exclude /node_modules"
+export FZF_DEFAULT_COMMAND="$FD_PACKAGE --type file --follow --hidden \
+  --exclude /.git \
+  --exclude /node_modules \
+  --exclude /lib \
+  --exclude /bin \
+  --exclude __pycache__ "
 
 # ZSH theme: pure: https://github.com/sindresorhus/pure#manually
 fpath+=$HOME/.zsh/pure
