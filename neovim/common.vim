@@ -15,6 +15,7 @@ set smarttab                            " Makes tabbing smarter will realize you
 set expandtab                           " Converts tabs to spaces
 set encoding=utf-8                      " The encoding displayed
 set cursorline                          " Highlight the line at cursor
+set scrolloff=10
 let mapleader=','
 
 au BufRead,BufNewFile .eslintrc.json setlocal filetype=json
