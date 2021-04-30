@@ -1,9 +1,13 @@
 
 # Alias commands
+# common
 alias ls='ls -G'
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   alias ls='ls --color=auto'
 fi
+# python
+alias pya='source bin/activate'
+alias pyd='deactivate'
 
 export GIT_EDITOR=nvim
 
