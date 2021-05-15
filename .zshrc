@@ -31,7 +31,7 @@ export FZF_DEFAULT_COMMAND="$FD_PACKAGE --type file --follow --hidden \
 # ZSH theme: pure: https://github.com/sindresorhus/pure#manually
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
-zstyle :prompt:pure:path color "#008080"
+zstyle :prompt:pure:path color cyan
 prompt pure
 
 # ZSH auto suggestions
