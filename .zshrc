@@ -1,3 +1,4 @@
+export GIT_EDITOR=nvim
 
 # Alias commands
 # common
@@ -9,7 +10,11 @@ fi
 alias pya='source bin/activate'
 alias pyd='deactivate'
 
-export GIT_EDITOR=nvim
+
+# pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 
 # FZF
 FD_PACKAGE="fd"
