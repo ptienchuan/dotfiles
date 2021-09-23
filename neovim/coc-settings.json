@@ -8,6 +8,14 @@
     "css",
     "markdown",
     "vue",
-    "python"
-  ]
+    "python",
+    "c"
+  ],
+  "pyright.enable": true,
+  "python.linting.enabled": false,
+  "python.venvPath": "virtual_environment",
+  // "python.linting.pylintEnabled": false,
+  // "python.linting.pylintPath": "${env:HOME}/.py-coc/bin/pylint",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "${env:HOME}/.py-coc/bin/black"
 }

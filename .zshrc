@@ -7,13 +7,14 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   alias ls='ls --color=auto'
 fi
 # python
-alias pya='source bin/activate'
+alias pya='source virtual_environment/bin/activate'
 alias pyd='deactivate'
-
+# C
+alias runc='gcc -o bin main.c; ./bin'
 
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
+  eval "$(pyenv init --path)"
 fi
 
 # FZF
