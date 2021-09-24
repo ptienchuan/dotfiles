@@ -1,21 +1,26 @@
 export GIT_EDITOR=nvim
 
-# Alias commands
-# common
+# common alias
 alias ls='ls -G'
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   alias ls='ls --color=auto'
 fi
-# python
+
+# python alias
 alias pya='source virtual_environment/bin/activate'
 alias pyd='deactivate'
-# C
+
+# C-lang alias
 alias runc='gcc -o bin main.c; ./bin'
 
-# pyenv
+# pyenv alias
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init --path)"
 fi
+
+# ZSH
+bindkey "[D" backward-word
+bindkey "[C" forward-word
 
 # FZF
 FD_PACKAGE="fd"
