@@ -1,0 +1,4 @@
+:set scrolloff=7
+:set cursorline
+:set expandtab
+:set clipboard=unnamedplus

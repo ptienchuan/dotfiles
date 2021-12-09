@@ -12,3 +12,6 @@
 # neovim
 . ~/.dotfiles/scripts/neovim.sh
 
+# eclipse
+. ~/.dotfiles/scripts/eclipse.sh
+
