@@ -22,7 +22,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 call plug#end()
 
-source ~/.dotfiles/neovim/common.vim
+source ~/.dotfiles/neovim/theme.vim
+source ~/.dotfiles/neovim/vimrc.vim
 source ~/.dotfiles/neovim/nerdcommenter.vim
 source ~/.dotfiles/neovim/nerdtree-git-plugin.vim
 source ~/.dotfiles/neovim/vim-gitgutter.vim

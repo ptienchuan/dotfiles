@@ -1,10 +1,6 @@
 set timeoutlen=1000
 set ttimeoutlen=5
 
-" theme
-colorscheme gruvbox
-set background=dark
-
 " vim layout
 set relativenumber			                " Display number incremently from the current line to top/bottom
 set number				                      " Display number in front of line
@@ -16,6 +12,7 @@ set expandtab                           " Converts tabs to spaces
 set encoding=utf-8                      " The encoding displayed
 set cursorline                          " Highlight the line at cursor
 set scrolloff=10
+set inccommand=nosplit
 let mapleader=','
 
 au BufRead,BufNewFile .eslintrc.json setlocal filetype=json
