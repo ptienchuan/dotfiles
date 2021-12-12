@@ -2,7 +2,8 @@ set nocompatible
 
 call plug#begin(stdpath('data') . '/plugged')
 
-Plug 'morhetz/gruvbox'                          " Theme
+"Plug 'morhetz/gruvbox'                          " Theme gruvbox
+Plug 'dracula/vim', { 'as': 'dracula' }         " Theme dracula
 Plug 'sheerun/vim-polyglot'                     " Font color depends on language
 Plug 'preservim/nerdcommenter'                  " Comment code hot keys
 Plug 'preservim/nerdtree'                       " Directories tree
