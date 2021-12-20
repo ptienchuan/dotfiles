@@ -1,5 +1,3 @@
-export GIT_EDITOR=nvim
-
 # common alias
 alias ls='ls -G'
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then

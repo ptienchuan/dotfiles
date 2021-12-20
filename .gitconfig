@@ -1,0 +1,14 @@
+[user]
+	name = chuan
+	email = ptienchuan@gmail.com
+[core]
+	editor = nvim
+	autocrlf = false
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[diff]
+	colorMoved = zebra
