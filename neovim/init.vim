@@ -17,8 +17,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'vim-scripts/loremipsum'                    " Lorem - dummy text generator
+Plug 'tpope/vim-surround'                        " Quick change, remove, add surrounder
 
-"Plug 'tpope/vim-surround'                       " Quick change, remove, add surrounder
 "Plug 'mg979/vim-visual-multi', {'branch':'master'}
 
 call plug#end()
