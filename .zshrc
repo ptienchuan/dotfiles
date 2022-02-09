@@ -32,16 +32,7 @@ export FZF_DEFAULT_COMMAND="$FD_PACKAGE --type file --follow --hidden \
   --exclude /bin \
   --exclude __pycache__ "
 
-# ZSH theme: pure: https://github.com/sindresorhus/pure#manually
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-zstyle :prompt:pure:path color cyan
-prompt pure
+# Oh-my-zsh: keep at the end of the file
+source ~/.dotfiles/.zshrc.oh-my-zsh
+source ~/.dotfiles/.p10k.zsh
 
-# ZSH auto suggestions
-# From homebrew
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# ZSH syntax highlight: https://formulae.brew.sh/formula/zsh-syntax-highlighting#default
-# From homebrew
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
