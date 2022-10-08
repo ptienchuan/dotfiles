@@ -1,0 +1,11 @@
+---
+# Style options, refer document: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# CLI clang-format, refer document: https://clang.llvm.org/docs/ClangFormat.html
+---
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 100
+AlignConsecutiveMacros: Consecutive
+AllowShortEnumsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty

@@ -1,5 +1,4 @@
 "======= dracula theme ==========
-syntax enable
 colorscheme dracula
 
 "======= gruvbox theme ==========
